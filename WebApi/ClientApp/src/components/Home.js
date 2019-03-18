@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Plot from 'react-plotly.js';
 
 const Home = props => (
-  <div>
+  <div className="container">
     <h1>Hello, world!</h1>
     <p>Welcome to your new single-page application, built with:</p>
 
