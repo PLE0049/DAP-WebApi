@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "ify-loader": "^1.1.0",
     "plotly.js": "^1.45.2",
     "plotly.js-dist": "^1.45.2",
     "react": "^16.0.0",
@@ -16,6 +17,7 @@
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^5.0.0-alpha.8",
     "react-scripts": "1.0.17",
+    "react-sigma": "^1.2.30",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
     "rimraf": "^2.6.2"
