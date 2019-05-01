@@ -16,21 +16,12 @@ export default () => (
                         <Glyphicon glyph='home' /> Home
                 </NavItem>
                 </LinkContainer>
-                <LinkContainer to={'/FormExample'}>
+                <LinkContainer to={'/Net23DStepOne'}>
                     <NavItem>
-                        <Glyphicon glyph='education' /> FormExample
-                </NavItem>
-                </LinkContainer>
-                <LinkContainer to={'/graph'}>
-                    <NavItem>
-                        <Glyphicon glyph='th-list' /> Graph
+                         Graph to 3D 
                 </NavItem>
                 </LinkContainer>
             </Nav>
-            <Form inline>
-                <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                <Button variant="outline-success">Search</Button>
-            </Form>
         </Navbar.Collapse>
     </Navbar>
 )

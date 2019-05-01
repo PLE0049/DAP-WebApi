@@ -5,12 +5,14 @@ import Home from './components/Home';
 import Counter from './components/Counter';
 import FetchData from './components/FetchData';
 import GraphPage from './components/GraphPage';
-import FormExample from './components/FormExample';
+import Net23DStepTwo from './components/Net23DStepTwo';
+import Net23DStepOne from './components/Net23DStepOne';
+import Parent from './components/Parent';
 
 export default () => (
   <Layout>
     <Route exact path='/' component={Home} />
-    <Route path='/graph' component={GraphPage} />
-    <Route path='/FormExample' component={FormExample} />
+    <Route path='/Net23DStepOne' component={Net23DStepOne} />
+    <Route path='/Net23DStepTwo/:graphId' component={Net23DStepTwo} />
   </Layout>
 );

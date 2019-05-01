@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2019-04-07">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="dep-degree" title="dep-degree" type="double"></attribute>
+      <attribute id="prominency" title="prominency" type="double"></attribute>
+    </attributes>
+    <nodes>
+      <node id="11" label="Valjean">
+        <attvalues>
+          <attvalue for="dep-degree" value="22.4553110617268"></attvalue>
+          <attvalue for="prominency" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="411.6292" y="77.68427"></viz:position>
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </node>
+      <node id="48" label="Gavroche">
+        <attvalues>
+          <attvalue for="dep-degree" value="9.4802569773782"></attvalue>
+          <attvalue for="prominency" value="0.833333333333333"></attvalue>
+        </attvalues>
+        <viz:size value="44.51395"></viz:size>
+        <viz:position x="-1617.5703" y="-143.09213"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="55" label="Marius">
+        <attvalues>
+          <attvalue for="dep-degree" value="8.94537258973694"></attvalue>
+          <attvalue for="prominency" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="42.226597"></viz:size>
+        <viz:position x="-1072.6609" y="269.54785"></viz:position>
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </node>
+      <node id="0" label="Myriel">
+        <attvalues>
+          <attvalue for="dep-degree" value="8.66698190902643"></attvalue>
+          <attvalue for="prominency" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="41.036095"></viz:size>
+        <viz:position x="1048.6503" y="1422.1086"></viz:position>
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </node>
+      <node id="58" label="Enjolras">
+        <attvalues>
+          <attvalue for="dep-degree" value="8.40088104681918"></attvalue>
+          <attvalue for="prominency" value="0.952380952380952"></attvalue>
+        </attvalues>
+        <viz:size value="39.898155"></viz:size>
+        <viz:position x="-1583.5452" y="216.72643"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="25" label="Thenardier">
+        <attvalues>
+          <attvalue for="dep-degree" value="8.37156818872714"></attvalue>
+          <attvalue for="prominency" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="39.7728"></viz:size>
+        <viz:position x="-284.46118" y="-513.90454"></viz:position>
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </node>
+      <node id="62" label="Courfeyrac">
+        <attvalues>
+          <attvalue for="dep-degree" value="8.21283213239598"></attvalue>
+          <attvalue for="prominency" value="0.9"></attvalue>
+        </attvalues>
+        <viz:size value="39.093983"></viz:size>
+        <viz:position x="-1945.6072" y="-25.68096"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="64" label="Bossuet">
+        <attvalues>
+          <attvalue for="dep-degree" value="7.37333245953923"></attvalue>
+          <attvalue for="prominency" value="0.842105263157895"></attvalue>
+        </attvalues>
+        <viz:size value="35.503983"></viz:size>
+        <viz:position x="-1811.5089" y="349.93726"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="23" label="Fantine">
+        <attvalues>
+          <attvalue for="dep-degree" value="7.33398830614645"></attvalue>
+          <attvalue for="prominency" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="35.33573"></viz:size>
+        <viz:position x="1185.685" y="-1231.2046"></viz:position>
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </node>
+      <node id="27" label="Javert">
+        <attvalues>
+          <attvalue for="dep-degree" value="7.03589862462922"></attvalue>
+          <attvalue for="prominency" value="0.888888888888889"></attvalue>
+        </attvalues>
+        <viz:size value="34.06099"></viz:size>
+        <viz:position x="145.83534" y="-513.76886"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="59" label="Combeferre">
+        <attvalues>
+          <attvalue for="dep-degree" value="6.44261581781761"></attvalue>
+          <attvalue for="prominency" value="0.823529411764706"></attvalue>
+        </attvalues>
+        <viz:size value="31.5239"></viz:size>
+        <viz:position x="-1794.8948" y="133.23836"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="65" label="Joly">
+        <attvalues>
+          <attvalue for="dep-degree" value="6.05843888791097"></attvalue>
+          <attvalue for="prominency" value="0.533333333333333"></attvalue>
+        </attvalues>
+        <viz:size value="29.88102"></viz:size>
+        <viz:position x="-2077.7974" y="327.04584"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="63" label="Bahorel">
+        <attvalues>
+          <attvalue for="dep-degree" value="5.71940378281559"></attvalue>
+          <attvalue for="prominency" value="0.533333333333333"></attvalue>
+        </attvalues>
+        <viz:size value="28.43118"></viz:size>
+        <viz:position x="-1967.5038" y="481.95996"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="26" label="Cosette">
+        <attvalues>
+          <attvalue for="dep-degree" value="5.10681027251363"></attvalue>
+          <attvalue for="prominency" value="0.8"></attvalue>
+        </attvalues>
+        <viz:size value="25.811508"></viz:size>
+        <viz:position x="-239.37602" y="64.298706"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="61" label="Feuilly">
+        <attvalues>
+          <attvalue for="dep-degree" value="4.87105421191671"></attvalue>
+          <attvalue for="prominency" value="0.461538461538462"></attvalue>
+        </attvalues>
+        <viz:size value="24.80333"></viz:size>
+        <viz:position x="-1965.3264" y="193.9807"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="69" label="Babet">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.9736831398852"></attvalue>
+          <attvalue for="prominency" value="0.75"></attvalue>
+        </attvalues>
+        <viz:size value="20.965847"></viz:size>
+        <viz:position x="-499.68555" y="-864.63556"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="68" label="Gueulemer">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.81202163868518"></attvalue>
+          <attvalue for="prominency" value="0.75"></attvalue>
+        </attvalues>
+        <viz:size value="20.274523"></viz:size>
+        <viz:position x="-460.08124" y="-689.7113"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="24" label="MmeThenardier">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.78480834771075"></attvalue>
+          <attvalue for="prominency" value="0.666666666666667"></attvalue>
+        </attvalues>
+        <viz:size value="20.158148"></viz:size>
+        <viz:position x="-62.20023" y="-732.7925"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="20" label="Favourite">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.76761405753427"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="20.08462"></viz:size>
+        <viz:position x="1550.071" y="-1450.4631"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="19" label="Blacheville">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.69283499597329"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="19.764837"></viz:size>
+        <viz:position x="1686.4524" y="-1517.5094"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="16" label="Tholomyes">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.68503780116421"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="19.731495"></viz:size>
+        <viz:position x="1388.4686" y="-1524.0281"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="21" label="Dahlia">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.66980997627274"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="19.666372"></viz:size>
+        <viz:position x="1684.4952" y="-1668.7798"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="17" label="Listolier">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.59262898449069"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="19.336319"></viz:size>
+        <viz:position x="1545.614" y="-1601.0132"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="18" label="Fameuil">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.59262898449069"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="19.336319"></viz:size>
+        <viz:position x="1559.4929" y="-1755.9053"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="22" label="Zephine">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.58300054555374"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="19.295147"></viz:size>
+        <viz:position x="1422.8096" y="-1690.4836"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="49" label="Gillenormand">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.51787670052766"></attvalue>
+          <attvalue for="prominency" value="0.666666666666667"></attvalue>
+        </attvalues>
+        <viz:size value="19.016651"></viz:size>
+        <viz:position x="-457.033" y="411.7588"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="51" label="MlleGillenormand">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.31272663872606"></attvalue>
+          <attvalue for="prominency" value="0.75"></attvalue>
+        </attvalues>
+        <viz:size value="18.139355"></viz:size>
+        <viz:position x="-388.2887" y="595.35767"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="70" label="Claquesous">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.18383976678942"></attvalue>
+          <attvalue for="prominency" value="0.571428571428572"></attvalue>
+        </attvalues>
+        <viz:size value="17.588188"></viz:size>
+        <viz:position x="-317.14017" y="-817.5386"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="34" label="Judge">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.1700312345882"></attvalue>
+          <attvalue for="prominency" value="0.285714285714286"></attvalue>
+        </attvalues>
+        <viz:size value="17.529137"></viz:size>
+        <viz:position x="1308.053" y="259.27344"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="35" label="Champmathieu">
+        <attvalues>
+          <attvalue for="dep-degree" value="3.1700312345882"></attvalue>
+          <attvalue for="prominency" value="0.285714285714286"></attvalue>
+        </attvalues>
+        <viz:size value="17.529137"></viz:size>
+        <viz:position x="1410.0118" y="168.86108"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="41" label="Eponine">
+        <attvalues>
+          <attvalue for="dep-degree" value="2.9941639026448"></attvalue>
+          <attvalue for="prominency" value="0.666666666666667"></attvalue>
+        </attvalues>
+        <viz:size value="16.777065"></viz:size>
+        <viz:position x="-796.4297" y="-675.0147"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="66" label="Grantaire">
+        <attvalues>
+          <attvalue for="dep-degree" value="2.86226417619644"></attvalue>
+          <attvalue for="prominency" value="0.181818181818182"></attvalue>
+        </attvalues>
+        <viz:size value="16.213015"></viz:size>
+        <viz:position x="-2229.9922" y="197.41791"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="36" label="Brevet">
+        <attvalues>
+          <attvalue for="dep-degree" value="2.7209162145871"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="15.608561"></viz:size>
+        <viz:position x="1533.5172" y="113.621765"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="37" label="Chenildieu">
+        <attvalues>
+          <attvalue for="dep-degree" value="2.7209162145871"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="15.608561"></viz:size>
+        <viz:position x="1435.6998" y="334.31125"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="38" label="Cochepaille">
+        <attvalues>
+          <attvalue for="dep-degree" value="2.7209162145871"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="15.608561"></viz:size>
+        <viz:position x="1550.1467" y="256.45016"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="57" label="Mabeuf">
+        <attvalues>
+          <attvalue for="dep-degree" value="2.62624657060022"></attvalue>
+          <attvalue for="prominency" value="0.181818181818182"></attvalue>
+        </attvalues>
+        <viz:size value="15.203717"></viz:size>
+        <viz:position x="-1651.1475" y="499.1106"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="29" label="Bamatabois">
+        <attvalues>
+          <attvalue for="dep-degree" value="2.57191553711462"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="14.971379"></viz:size>
+        <viz:position x="1330.5128" y="18.237083"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="60" label="Prouvaire">
+        <attvalues>
+          <attvalue for="dep-degree" value="2.5521646940716"></attvalue>
+          <attvalue for="prominency" value="0.2"></attvalue>
+        </attvalues>
+        <viz:size value="14.886916"></viz:size>
+        <viz:position x="-2123.3115" y="73.928734"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="28" label="Fauchelevent">
+        <attvalues>
+          <attvalue for="dep-degree" value="2.17060074213724"></attvalue>
+          <attvalue for="prominency" value="0.8"></attvalue>
+        </attvalues>
+        <viz:size value="13.255212"></viz:size>
+        <viz:position x="753.15936" y="-340.78006"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="71" label="Montparnasse">
+        <attvalues>
+          <attvalue for="dep-degree" value="2.07848235594909"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="12.86128"></viz:size>
+        <viz:position x="-599.3912" y="-599.7534"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="75" label="Brujon">
+        <attvalues>
+          <attvalue for="dep-degree" value="2.05911274048814"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="12.778448"></viz:size>
+        <viz:position x="-681.4111" y="-842.8661"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="3" label="MmeMagloire">
+        <attvalues>
+          <attvalue for="dep-degree" value="1.24902058958877"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="9.314201"></viz:size>
+        <viz:position x="999.3591" y="1170.9071"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="31" label="Simplice">
+        <attvalues>
+          <attvalue for="dep-degree" value="1.15247793622423"></attvalue>
+          <attvalue for="prominency" value="0.4"></attvalue>
+        </attvalues>
+        <viz:size value="8.90135"></viz:size>
+        <viz:position x="795.5703" y="-866.51624"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="2" label="MlleBaptistine">
+        <attvalues>
+          <attvalue for="dep-degree" value="1.11929086610213"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="8.759429"></viz:size>
+        <viz:position x="894.23016" y="1195.9253"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="47" label="MmeBurgon">
+        <attvalues>
+          <attvalue for="dep-degree" value="1.03571428571429"></attvalue>
+          <attvalue for="prominency" value="0.666666666666667"></attvalue>
+        </attvalues>
+        <viz:size value="8.402024"></viz:size>
+        <viz:position x="-1763.75" y="-932.92773"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="76" label="MmeHucheloup">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.914222739351099"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="7.8824825"></viz:size>
+        <viz:position x="-2253.6206" y="399.3012"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="73" label="Child1">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.857142857142857"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="7.6383886"></viz:size>
+        <viz:position x="-1745.7532" y="-634.22473"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="74" label="Child2">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.857142857142857"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="7.6383886"></viz:size>
+        <viz:position x="-1839.655" y="-626.4059"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="39" label="Pontmercy">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.543348045397226"></attvalue>
+          <attvalue for="prominency" value="0.5"></attvalue>
+        </attvalues>
+        <viz:size value="6.296489"></viz:size>
+        <viz:position x="-522.08844" y="830.37524"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="54" label="LtGillenormand">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.437512075602278"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="5.843895"></viz:size>
+        <viz:position x="-571.7112" y="534.68"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="42" label="Anzelma">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.380994192327492"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="5.6022043"></viz:size>
+        <viz:position x="-401.81305" y="-1005.56445"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="52" label="MmePontmercy">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.376811594202899"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="5.584317"></viz:size>
+        <viz:position x="-454.21204" y="988.10095"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="30" label="Perpetue">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.375886524822695"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="5.5803604"></viz:size>
+        <viz:position x="913.97626" y="-1000.1792"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="46" label="Jondrette">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.333333333333333"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="5.398388"></viz:size>
+        <viz:position x="-1756.346" y="-1045.9564"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="44" label="MotherInnocent">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.297915867536121"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="5.246931"></viz:size>
+        <viz:position x="849.5508" y="-229.59555"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="67" label="MotherPlutarch">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.1875"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.7747536"></viz:size>
+        <viz:position x="-1554.9913" y="731.6328"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="43" label="Woman2">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.17955011716008"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.740756"></viz:size>
+        <viz:position x="90.567894" y="-186.88145"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="45" label="Gribier">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.142857142857143"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.583843"></viz:size>
+        <viz:position x="904.50073" y="-399.84857"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="72" label="Toussaint">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.13076425789917"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.5321302"></viz:size>
+        <viz:position x="19.582863" y="-45.057095"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="56" label="BaronessT">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.0848041216078351"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.3355865"></viz:size>
+        <viz:position x="-728.5879" y="622.49207"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="12" label="Marguerite">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.0783879734593443"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.3081493"></viz:size>
+        <viz:position x="1076.7195" y="-786.74316"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="33" label="Woman1">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.0779862282512998"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.3064327"></viz:size>
+        <viz:position x="466.43976" y="-432.6395"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="8" label="Count">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.0645161290322581"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.248829"></viz:size>
+        <viz:position x="994.7744" y="1612.7773"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="50" label="Magnon">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.063894523326572"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.246171"></viz:size>
+        <viz:position x="-151.33298" y="268.47717"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="53" label="MlleVaubois">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.0434782608695652"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.158864"></viz:size>
+        <viz:position x="-244.88562" y="881.17"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="1" label="Napoleon">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.032258064516129"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.110882"></viz:size>
+        <viz:position x="1183.2555" y="1636.181"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="4" label="CountessDeLo">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.032258064516129"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.110882"></viz:size>
+        <viz:position x="826.3485" y="1543.6387"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="5" label="Geborand">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.032258064516129"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.110882"></viz:size>
+        <viz:position x="1272.931" y="1540.4951"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="6" label="Champtercier">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.032258064516129"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.110882"></viz:size>
+        <viz:position x="1069.5714" y="1708.082"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="7" label="Cravatte">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.032258064516129"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.110882"></viz:size>
+        <viz:position x="1291.2793" y="1401.1249"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="9" label="OldMan">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.032258064516129"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.110882"></viz:size>
+        <viz:position x="886.3995" y="1670.6753"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="40" label="Boulatruelle">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.0163934426229508"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0430384"></viz:size>
+        <viz:position x="-48.717236" y="-1092.1105"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="10" label="Labarre">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.00632911392405063"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="754.5706" y="659.90906"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="13" label="MmeDeR">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.00632911392405063"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="422.91733" y="733.5414"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="14" label="Isabeau">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.00632911392405063"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="605.6586" y="612.4561"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="15" label="Gervais">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.00632911392405063"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="579.0953" y="763.0768"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+      <node id="32" label="Scaufflaire">
+        <attvalues>
+          <attvalue for="dep-degree" value="0.00632911392405063"></attvalue>
+          <attvalue for="prominency" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="816.22485" y="513.70105"></viz:position>
+        <viz:color r="0" g="204" b="0"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="78" source="1" target="0" label="0.179605302026775" weight="0.17960530519485474"></edge>
+      <edge id="79" source="2" target="0" label="0.593514322046556" weight="0.5935143232345581"></edge>
+      <edge id="80" source="3" target="0" label="0.630572675374814" weight="0.6305726766586304"></edge>
+      <edge id="81" source="3" target="2" label="0.664606667089174" weight="0.6646066904067993"></edge>
+      <edge id="82" source="4" target="0" label="0.179605302026775" weight="0.17960530519485474"></edge>
+      <edge id="83" source="5" target="0" label="0.179605302026775" weight="0.17960530519485474"></edge>
+      <edge id="84" source="6" target="0" label="0.179605302026775" weight="0.17960530519485474"></edge>
+      <edge id="85" source="7" target="0" label="0.179605302026775" weight="0.17960530519485474"></edge>
+      <edge id="86" source="8" target="0" label="0.254000254000381" weight="0.2540002465248108"></edge>
+      <edge id="87" source="9" target="0" label="0.179605302026775" weight="0.17960530519485474"></edge>
+      <edge id="88" source="11" target="10" label="0.079555728417573" weight="0.07955572754144669"></edge>
+      <edge id="89" source="11" target="3" label="0.152094465154372" weight="0.15209446847438812"></edge>
+      <edge id="90" source="11" target="2" label="0.15584502486789" weight="0.1558450311422348"></edge>
+      <edge id="91" source="11" target="0" label="0.135592110247905" weight="0.13559210300445557"></edge>
+      <edge id="92" source="12" target="11" label="0.121092192300583" weight="0.12109219282865524"></edge>
+      <edge id="93" source="13" target="11" label="0.079555728417573" weight="0.07955572754144669"></edge>
+      <edge id="94" source="14" target="11" label="0.079555728417573" weight="0.07955572754144669"></edge>
+      <edge id="95" source="15" target="11" label="0.079555728417573" weight="0.07955572754144669"></edge>
+      <edge id="96" source="17" target="16" label="0.560448538317805" weight="0.5604485273361206"></edge>
+      <edge id="97" source="18" target="16" label="0.560448538317805" weight="0.5604485273361206"></edge>
+      <edge id="98" source="18" target="17" label="0.583333333333333" weight="0.5833333134651184"></edge>
+      <edge id="99" source="19" target="16" label="0.557530155607123" weight="0.5575301647186279"></edge>
+      <edge id="100" source="19" target="17" label="0.580295784302205" weight="0.5802958011627197"></edge>
+      <edge id="101" source="19" target="18" label="0.580295784302205" weight="0.5802958011627197"></edge>
+      <edge id="102" source="20" target="16" label="0.528159340659341" weight="0.5281593203544617"></edge>
+      <edge id="103" source="20" target="17" label="0.5497256708755" weight="0.5497256517410278"></edge>
+      <edge id="104" source="20" target="18" label="0.5497256708755" weight="0.5497256517410278"></edge>
+      <edge id="105" source="20" target="19" label="0.566635547595682" weight="0.5666355490684509"></edge>
+      <edge id="106" source="21" target="16" label="0.527412320568045" weight="0.5274122953414917"></edge>
+      <edge id="107" source="21" target="17" label="0.548948147713016" weight="0.5489481687545776"></edge>
+      <edge id="108" source="21" target="18" label="0.548948147713016" weight="0.5489481687545776"></edge>
+      <edge id="109" source="21" target="19" label="0.551746031746032" weight="0.5517460107803345"></edge>
+      <edge id="110" source="21" target="20" label="0.59675338263476" weight="0.5967533588409424"></edge>
+      <edge id="111" source="22" target="16" label="0.531854225138325" weight="0.5318542122840881"></edge>
+      <edge id="112" source="22" target="17" label="0.553571428571428" weight="0.5535714030265808"></edge>
+      <edge id="113" source="22" target="18" label="0.553571428571428" weight="0.5535714030265808"></edge>
+      <edge id="114" source="22" target="19" label="0.554051251343814" weight="0.5540512800216675"></edge>
+      <edge id="115" source="22" target="20" label="0.577922840816376" weight="0.5779228210449219"></edge>
+      <edge id="116" source="22" target="21" label="0.580619790881938" weight="0.5806198120117188"></edge>
+      <edge id="117" source="23" target="16" label="0.380057498537342" weight="0.3800574839115143"></edge>
+      <edge id="118" source="23" target="17" label="0.395576386273668" weight="0.3955763876438141"></edge>
+      <edge id="119" source="23" target="18" label="0.395576386273668" weight="0.3955763876438141"></edge>
+      <edge id="120" source="23" target="19" label="0.395919262637142" weight="0.3959192633628845"></edge>
+      <edge id="121" source="23" target="20" label="0.412977652233827" weight="0.4129776656627655"></edge>
+      <edge id="122" source="23" target="21" label="0.414904864705122" weight="0.4149048626422882"></edge>
+      <edge id="123" source="23" target="22" label="0.41684393392279" weight="0.4168439209461212"></edge>
+      <edge id="124" source="23" target="12" label="0.24422405710929" weight="0.24422405660152435"></edge>
+      <edge id="125" source="23" target="11" label="0.207435560114069" weight="0.20743556320667267"></edge>
+      <edge id="126" source="24" target="23" label="0.192605535148885" weight="0.19260554015636444"></edge>
+      <edge id="127" source="24" target="11" label="0.284657482047896" weight="0.28465747833251953"></edge>
+      <edge id="128" source="25" target="24" label="0.528712477891581" weight="0.5287124514579773"></edge>
+      <edge id="129" source="25" target="23" label="0.193786754379829" weight="0.19378675520420074"></edge>
+      <edge id="130" source="25" target="11" label="0.280956042343076" weight="0.2809560298919678"></edge>
+      <edge id="131" source="26" target="24" label="0.231662692686393" weight="0.23166269063949585"></edge>
+      <edge id="132" source="26" target="11" label="0.472774698281256" weight="0.4727746844291687"></edge>
+      <edge id="133" source="26" target="16" label="0.046484123292371" weight="0.046484123915433884"></edge>
+      <edge id="134" source="26" target="25" label="0.238636970216485" weight="0.23863697052001953"></edge>
+      <edge id="135" source="27" target="11" label="0.404718806008797" weight="0.404718816280365"></edge>
+      <edge id="136" source="27" target="23" label="0.288325150027278" weight="0.28832516074180603"></edge>
+      <edge id="137" source="27" target="25" label="0.344195280203333" weight="0.34419527649879456"></edge>
+      <edge id="138" source="27" target="24" label="0.336827646598986" weight="0.3368276357650757"></edge>
+      <edge id="139" source="27" target="26" label="0.2614246657647" weight="0.2614246606826782"></edge>
+      <edge id="140" source="28" target="11" label="0.206124855821298" weight="0.20612485706806183"></edge>
+      <edge id="141" source="28" target="27" label="0.251057338538515" weight="0.25105732679367065"></edge>
+      <edge id="142" source="29" target="23" label="0.15259709824785" weight="0.1525970995426178"></edge>
+      <edge id="143" source="29" target="27" label="0.159330870452766" weight="0.15933087468147278"></edge>
+      <edge id="144" source="29" target="11" label="0.197759114954245" weight="0.19775912165641785"></edge>
+      <edge id="145" source="30" target="23" label="0.168430384213304" weight="0.1684303879737854"></edge>
+      <edge id="146" source="31" target="30" label="0.544331053951817" weight="0.5443310737609863"></edge>
+      <edge id="147" source="31" target="11" label="0.156972491227684" weight="0.1569724977016449"></edge>
+      <edge id="148" source="31" target="23" label="0.296533608299403" weight="0.29653361439704895"></edge>
+      <edge id="149" source="31" target="27" label="0.256750217372278" weight="0.256750226020813"></edge>
+      <edge id="150" source="32" target="11" label="0.079555728417573" weight="0.07955572754144669"></edge>
+      <edge id="151" source="33" target="11" label="0.13524281247364" weight="0.13524281978607178"></edge>
+      <edge id="152" source="33" target="27" label="0.23491606219224" weight="0.2349160611629486"></edge>
+      <edge id="153" source="34" target="11" label="0.180728383614089" weight="0.18072839081287384"></edge>
+      <edge id="154" source="34" target="29" label="0.515726696976244" weight="0.5157266855239868"></edge>
+      <edge id="155" source="35" target="11" label="0.180728383614089" weight="0.18072839081287384"></edge>
+      <edge id="156" source="35" target="34" label="0.607142857142857" weight="0.6071428656578064"></edge>
+      <edge id="157" source="35" target="29" label="0.515726696976244" weight="0.5157266855239868"></edge>
+      <edge id="158" source="36" target="34" label="0.569448227911269" weight="0.5694482326507568"></edge>
+      <edge id="159" source="36" target="35" label="0.569448227911269" weight="0.5694482326507568"></edge>
+      <edge id="160" source="36" target="11" label="0.169507812817924" weight="0.16950781643390656"></edge>
+      <edge id="161" source="36" target="29" label="0.484848484848485" weight="0.4848484992980957"></edge>
+      <edge id="162" source="37" target="34" label="0.569448227911269" weight="0.5694482326507568"></edge>
+      <edge id="163" source="37" target="35" label="0.569448227911269" weight="0.5694482326507568"></edge>
+      <edge id="164" source="37" target="36" label="0.590909090909091" weight="0.5909090638160706"></edge>
+      <edge id="165" source="37" target="11" label="0.169507812817924" weight="0.16950781643390656"></edge>
+      <edge id="166" source="37" target="29" label="0.484848484848485" weight="0.4848484992980957"></edge>
+      <edge id="167" source="38" target="34" label="0.569448227911269" weight="0.5694482326507568"></edge>
+      <edge id="168" source="38" target="35" label="0.569448227911269" weight="0.5694482326507568"></edge>
+      <edge id="169" source="38" target="36" label="0.590909090909091" weight="0.5909090638160706"></edge>
+      <edge id="170" source="38" target="37" label="0.590909090909091" weight="0.5909090638160706"></edge>
+      <edge id="171" source="38" target="11" label="0.169507812817924" weight="0.16950781643390656"></edge>
+      <edge id="172" source="38" target="29" label="0.484848484848485" weight="0.4848484992980957"></edge>
+      <edge id="173" source="39" target="25" label="0.123203545159095" weight="0.12320354580879211"></edge>
+      <edge id="174" source="40" target="25" label="0.128036879932896" weight="0.12803688645362854"></edge>
+      <edge id="175" source="41" target="24" label="0.259837462177697" weight="0.25983744859695435"></edge>
+      <edge id="176" source="41" target="25" label="0.320242992338982" weight="0.3202430009841919"></edge>
+      <edge id="177" source="42" target="41" label="0.396711629472926" weight="0.3967116177082062"></edge>
+      <edge id="178" source="42" target="25" label="0.236401312309583" weight="0.23640131950378418"></edge>
+      <edge id="179" source="42" target="24" label="0.286333595836352" weight="0.2863335907459259"></edge>
+      <edge id="180" source="43" target="11" label="0.174803613672781" weight="0.17480361461639404"></edge>
+      <edge id="181" source="43" target="26" label="0.229691072984459" weight="0.22969107329845428"></edge>
+      <edge id="182" source="43" target="27" label="0.264192869586644" weight="0.2641928791999817"></edge>
+      <edge id="183" source="44" target="28" label="0.519674637051936" weight="0.5196746587753296"></edge>
+      <edge id="184" source="44" target="11" label="0.126565931573412" weight="0.12656593322753906"></edge>
+      <edge id="185" source="45" target="28" label="0.377964473009227" weight="0.37796446681022644"></edge>
+      <edge id="186" source="47" target="46" label="0.577350269189626" weight="0.5773502588272095"></edge>
+      <edge id="187" source="48" target="47" label="0.154303349962092" weight="0.15430335700511932"></edge>
+      <edge id="188" source="48" target="25" label="0.120284584190371" weight="0.12028458714485168"></edge>
+      <edge id="189" source="48" target="27" label="0.149605490529003" weight="0.14960549771785736"></edge>
+      <edge id="190" source="48" target="11" label="0.11748043473928" weight="0.11748043447732925"></edge>
+      <edge id="191" source="49" target="26" label="0.329935527719985" weight="0.3299355208873749"></edge>
+      <edge id="192" source="49" target="11" label="0.202783287772955" weight="0.20278328657150269"></edge>
+      <edge id="193" source="50" target="49" label="0.131306432859723" weight="0.13130643963813782"></edge>
+      <edge id="194" source="50" target="24" label="0.121267812518166" weight="0.12126781046390533"></edge>
+      <edge id="195" source="51" target="49" label="0.614359786845477" weight="0.6143597960472107"></edge>
+      <edge id="196" source="51" target="26" label="0.289832192698021" weight="0.289832204580307"></edge>
+      <edge id="197" source="51" target="11" label="0.16713181307746" weight="0.16713181138038635"></edge>
+      <edge id="198" source="52" target="51" label="0.147441956154897" weight="0.14744195342063904"></edge>
+      <edge id="199" source="52" target="39" label="0.408248290463863" weight="0.40824830532073975"></edge>
+      <edge id="200" source="53" target="51" label="0.208514414057075" weight="0.20851440727710724"></edge>
+      <edge id="201" source="54" target="51" label="0.412522365169167" weight="0.4125223755836487"></edge>
+      <edge id="202" source="54" target="49" label="0.357879559159911" weight="0.35787954926490784"></edge>
+      <edge id="203" source="54" target="26" label="0.200907185366142" weight="0.20090718567371368"></edge>
+      <edge id="204" source="55" target="51" label="0.315799260766931" weight="0.3157992660999298"></edge>
+      <edge id="205" source="55" target="49" label="0.383016087876332" weight="0.38301607966423035"></edge>
+      <edge id="206" source="55" target="39" label="0.0943564195120496" weight="0.09435641765594482"></edge>
+      <edge id="207" source="55" target="54" label="0.191971440589581" weight="0.19197143614292145"></edge>
+      <edge id="208" source="55" target="26" label="0.455991232396108" weight="0.4559912383556366"></edge>
+      <edge id="209" source="55" target="11" label="0.316931319643836" weight="0.3169313073158264"></edge>
+      <edge id="210" source="55" target="16" label="0.0375874125874126" weight="0.03758741170167923"></edge>
+      <edge id="211" source="55" target="25" label="0.169297104237512" weight="0.16929709911346436"></edge>
+      <edge id="212" source="55" target="41" label="0.170970082853022" weight="0.17097008228302002"></edge>
+      <edge id="213" source="55" target="48" label="0.281483339845344" weight="0.28148335218429565"></edge>
+      <edge id="214" source="56" target="49" label="0.252512370884082" weight="0.2525123655796051"></edge>
+      <edge id="215" source="56" target="55" label="0.133341393323372" weight="0.13334138691425323"></edge>
+      <edge id="216" source="57" target="55" label="0.226512544232856" weight="0.22651255130767822"></edge>
+      <edge id="217" source="57" target="41" label="0.143384833669101" weight="0.14338482916355133"></edge>
+      <edge id="218" source="57" target="48" label="0.314336870386185" weight="0.3143368661403656"></edge>
+      <edge id="219" source="58" target="55" label="0.302246410488697" weight="0.30224642157554626"></edge>
+      <edge id="220" source="58" target="48" label="0.447245655927298" weight="0.44724565744400024"></edge>
+      <edge id="221" source="58" target="27" label="0.162282779067224" weight="0.1622827798128128"></edge>
+      <edge id="222" source="58" target="57" label="0.268284393393681" weight="0.2682843804359436"></edge>
+      <edge id="223" source="58" target="11" label="0.132053063535411" weight="0.13205306231975555"></edge>
+      <edge id="224" source="59" target="58" label="0.552355931877558" weight="0.552355945110321"></edge>
+      <edge id="225" source="59" target="55" label="0.290945311667942" weight="0.2909453213214874"></edge>
+      <edge id="226" source="59" target="48" label="0.460162091595034" weight="0.46016210317611694"></edge>
+      <edge id="227" source="59" target="57" label="0.313978968750533" weight="0.31397897005081177"></edge>
+      <edge id="228" source="60" target="48" label="0.389423109058601" weight="0.38942310214042664"></edge>
+      <edge id="229" source="60" target="58" label="0.381621017266083" weight="0.38162100315093994"></edge>
+      <edge id="230" source="60" target="59" label="0.413822873401261" weight="0.41382285952568054"></edge>
+      <edge id="231" source="61" target="48" label="0.436432718606139" weight="0.43643271923065186"></edge>
+      <edge id="232" source="61" target="58" label="0.461917647841557" weight="0.4619176387786865"></edge>
+      <edge id="233" source="61" target="60" label="0.488417616278227" weight="0.4884176254272461"></edge>
+      <edge id="234" source="61" target="59" label="0.508841635509874" weight="0.5088416337966919"></edge>
+      <edge id="235" source="61" target="57" label="0.35862521314265" weight="0.358625203371048"></edge>
+      <edge id="236" source="61" target="55" label="0.271533675067761" weight="0.27153366804122925"></edge>
+      <edge id="237" source="62" target="55" label="0.302644757628418" weight="0.3026447594165802"></edge>
+      <edge id="238" source="62" target="58" label="0.558587432263028" weight="0.5585874319076538"></edge>
+      <edge id="239" source="62" target="59" label="0.573950139309087" weight="0.5739501118659973"></edge>
+      <edge id="240" source="62" target="48" label="0.452686774244742" weight="0.45268678665161133"></edge>
+      <edge id="241" source="62" target="57" label="0.301858922469952" weight="0.30185893177986145"></edge>
+      <edge id="242" source="62" target="41" label="0.122176625876144" weight="0.1221766248345375"></edge>
+      <edge id="243" source="62" target="61" label="0.487360369216144" weight="0.4873603582382202"></edge>
+      <edge id="244" source="62" target="60" label="0.391888977291991" weight="0.39188897609710693"></edge>
+      <edge id="245" source="63" target="59" label="0.494547477879948" weight="0.4945474863052368"></edge>
+      <edge id="246" source="63" target="48" label="0.469345386097596" weight="0.4693453907966614"></edge>
+      <edge id="247" source="63" target="62" label="0.481032397760848" weight="0.4810324013233185"></edge>
+      <edge id="248" source="63" target="57" label="0.378112134609989" weight="0.37811213731765747"></edge>
+      <edge id="249" source="63" target="58" label="0.446231953080723" weight="0.4462319612503052"></edge>
+      <edge id="250" source="63" target="61" label="0.516803015528928" weight="0.5168030261993408"></edge>
+      <edge id="251" source="63" target="60" label="0.467420822277706" weight="0.4674208164215088"></edge>
+      <edge id="252" source="63" target="55" label="0.265913106299169" weight="0.26591309905052185"></edge>
+      <edge id="253" source="64" target="55" label="0.294024477013713" weight="0.2940244674682617"></edge>
+      <edge id="254" source="64" target="62" label="0.55909023095345" weight="0.559090256690979"></edge>
+      <edge id="255" source="64" target="48" label="0.462207953622617" weight="0.46220794320106506"></edge>
+      <edge id="256" source="64" target="63" label="0.497453285514625" weight="0.4974532723426819"></edge>
+      <edge id="257" source="64" target="58" label="0.529595745645539" weight="0.5295957326889038"></edge>
+      <edge id="258" source="64" target="61" label="0.521309428268185" weight="0.5213094353675842"></edge>
+      <edge id="259" source="64" target="60" label="0.419795167498646" weight="0.4197951555252075"></edge>
+      <edge id="260" source="64" target="59" label="0.548570075293275" weight="0.5485700964927673"></edge>
+      <edge id="261" source="64" target="57" label="0.307478947637091" weight="0.3074789345264435"></edge>
+      <edge id="262" source="64" target="11" label="0.0846946195156917" weight="0.08469461649656296"></edge>
+      <edge id="263" source="65" target="63" label="0.543206418316034" weight="0.5432063937187195"></edge>
+      <edge id="264" source="65" target="64" label="0.535546339921555" weight="0.5355463624000549"></edge>
+      <edge id="265" source="65" target="48" label="0.449804190514893" weight="0.4498041868209839"></edge>
+      <edge id="266" source="65" target="62" label="0.490073488110403" weight="0.4900735020637512"></edge>
+      <edge id="267" source="65" target="58" label="0.461516098375792" weight="0.4615161120891571"></edge>
+      <edge id="268" source="65" target="61" label="0.546564480363076" weight="0.5465644598007202"></edge>
+      <edge id="269" source="65" target="60" label="0.467237859673772" weight="0.4672378599643707"></edge>
+      <edge id="270" source="65" target="59" label="0.500434667190885" weight="0.5004346966743469"></edge>
+      <edge id="271" source="65" target="57" label="0.35242601149782" weight="0.35242602229118347"></edge>
+      <edge id="272" source="65" target="55" label="0.260621891984495" weight="0.26062190532684326"></edge>
+      <edge id="273" source="66" target="64" label="0.404191726468857" weight="0.4041917324066162"></edge>
+      <edge id="274" source="66" target="58" label="0.348433638586942" weight="0.34843364357948303"></edge>
+      <edge id="275" source="66" target="59" label="0.366907316089191" weight="0.3669073283672333"></edge>
+      <edge id="276" source="66" target="62" label="0.358598238374414" weight="0.3585982322692871"></edge>
+      <edge id="277" source="66" target="65" label="0.4506423526287" weight="0.45064234733581543"></edge>
+      <edge id="278" source="66" target="48" label="0.370414005966024" weight="0.37041401863098145"></edge>
+      <edge id="279" source="66" target="63" label="0.437969563532366" weight="0.4379695653915405"></edge>
+      <edge id="280" source="66" target="61" label="0.439832484077752" weight="0.439832478761673"></edge>
+      <edge id="281" source="66" target="60" label="0.494063169728388" weight="0.4940631687641144"></edge>
+      <edge id="282" source="67" target="57" label="0.433012701892219" weight="0.4330126941204071"></edge>
+      <edge id="283" source="68" target="25" label="0.412320963344342" weight="0.41232097148895264"></edge>
+      <edge id="284" source="68" target="11" label="0.145947620783306" weight="0.1459476202726364"></edge>
+      <edge id="285" source="68" target="24" label="0.285027926307086" weight="0.2850279211997986"></edge>
+      <edge id="286" source="68" target="27" label="0.245377330142014" weight="0.2453773319721222"></edge>
+      <edge id="287" source="68" target="48" label="0.136494134262417" weight="0.13649412989616394"></edge>
+      <edge id="288" source="68" target="41" label="0.303538865028265" weight="0.30353885889053345"></edge>
+      <edge id="289" source="69" target="25" label="0.429343636334557" weight="0.42934364080429077"></edge>
+      <edge id="290" source="69" target="68" label="0.611758012504967" weight="0.6117579936981201"></edge>
+      <edge id="291" source="69" target="11" label="0.160580934234643" weight="0.16058093309402466"></edge>
+      <edge id="292" source="69" target="24" label="0.296078517482455" weight="0.29607850313186646"></edge>
+      <edge id="293" source="69" target="27" label="0.252520002921432" weight="0.25251999497413635"></edge>
+      <edge id="294" source="69" target="48" label="0.136240060978434" weight="0.13624006509780884"></edge>
+      <edge id="295" source="69" target="41" label="0.297599293877075" weight="0.29759928584098816"></edge>
+      <edge id="296" source="70" target="25" label="0.385755792367947" weight="0.3857558071613312"></edge>
+      <edge id="297" source="70" target="69" label="0.547238202436344" weight="0.5472382307052612"></edge>
+      <edge id="298" source="70" target="68" label="0.553302598432448" weight="0.5533025860786438"></edge>
+      <edge id="299" source="70" target="11" label="0.158076822654199" weight="0.15807682275772095"></edge>
+      <edge id="300" source="70" target="24" label="0.295300318867729" weight="0.29530030488967896"></edge>
+      <edge id="301" source="70" target="27" label="0.271492731356528" weight="0.27149271965026855"></edge>
+      <edge id="302" source="70" target="41" label="0.315366202986175" weight="0.3153662085533142"></edge>
+      <edge id="303" source="70" target="58" label="0.0622843892532573" weight="0.06228438764810562"></edge>
+      <edge id="304" source="71" target="27" label="0.236270400076996" weight="0.23627039790153503"></edge>
+      <edge id="305" source="71" target="69" label="0.478174603174603" weight="0.4781745970249176"></edge>
+      <edge id="306" source="71" target="68" label="0.485936476567935" weight="0.4859364628791809"></edge>
+      <edge id="307" source="71" target="70" label="0.481971260861367" weight="0.48197126388549805"></edge>
+      <edge id="308" source="71" target="11" label="0.123269210788746" weight="0.1232692077755928"></edge>
+      <edge id="309" source="71" target="48" label="0.167161962458933" weight="0.1671619564294815"></edge>
+      <edge id="310" source="71" target="41" label="0.281463125876322" weight="0.2814631164073944"></edge>
+      <edge id="311" source="71" target="25" label="0.333326514485377" weight="0.333326518535614"></edge>
+      <edge id="312" source="72" target="26" label="0.210323862336195" weight="0.21032385528087616"></edge>
+      <edge id="313" source="72" target="27" label="0.19043485001114" weight="0.19043484330177307"></edge>
+      <edge id="314" source="72" target="11" label="0.152080016192179" weight="0.1520800143480301"></edge>
+      <edge id="315" source="73" target="48" label="0.191236577493503" weight="0.19123657047748566"></edge>
+      <edge id="316" source="74" target="48" label="0.191236577493503" weight="0.19123657047748566"></edge>
+      <edge id="317" source="74" target="73" label="0.8" weight="0.800000011920929"></edge>
+      <edge id="318" source="75" target="69" label="0.505293285340497" weight="0.5052933096885681"></edge>
+      <edge id="319" source="75" target="68" label="0.518182433307068" weight="0.5181824564933777"></edge>
+      <edge id="320" source="75" target="25" label="0.33469156341765" weight="0.3346915543079376"></edge>
+      <edge id="321" source="75" target="48" label="0.138984246873956" weight="0.13898424804210663"></edge>
+      <edge id="322" source="75" target="41" label="0.318142381487889" weight="0.3181423842906952"></edge>
+      <edge id="323" source="75" target="70" label="0.453317422843893" weight="0.45331743359565735"></edge>
+      <edge id="324" source="75" target="71" label="0.465706047316462" weight="0.4657060503959656"></edge>
+      <edge id="325" source="76" target="64" label="0.283355758395616" weight="0.2833557724952698"></edge>
+      <edge id="326" source="76" target="65" label="0.333826116920369" weight="0.33382612466812134"></edge>
+      <edge id="327" source="76" target="66" label="0.456707071552816" weight="0.45670706033706665"></edge>
+      <edge id="328" source="76" target="63" label="0.340368436229455" weight="0.34036844968795776"></edge>
+      <edge id="329" source="76" target="62" label="0.251545913005444" weight="0.25154590606689453"></edge>
+      <edge id="330" source="76" target="48" label="0.286209887623126" weight="0.2862098813056946"></edge>
+      <edge id="331" source="76" target="58" label="0.242161054279207" weight="0.24216105043888092"></edge>
+    </edges>
+  </graph>
+</gexf>

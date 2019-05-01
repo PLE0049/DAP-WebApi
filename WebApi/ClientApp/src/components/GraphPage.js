@@ -31,7 +31,7 @@ class GraphPage extends Component {
                 scene: {
                     aspectmode: "manual",
                     aspectratio: {
-                        x: 1, y: 1, z: 1,
+                        x: 2, y: 2, z: 1,
                     },
                     zaxis: {
                         nticks: 0.5,
@@ -103,6 +103,8 @@ class GraphPage extends Component {
 
     } 
 
+
+
     render() {
         return (
             <div>
@@ -138,8 +140,6 @@ class GraphPage extends Component {
                         </div>
                     </div>
                 </div>
-                
-  
             </div>
 
         );
