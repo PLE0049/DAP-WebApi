@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import { Glyphicon, Nav, Navbar, NavItem, NavDropdown, Form, Button, FormControl} from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
-export default () => (
+const NavMenu = () => (
     <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home">
-           Data science
+            Data science
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -18,10 +18,12 @@ export default () => (
                 </LinkContainer>
                 <LinkContainer to={'/Net23DStepOne'}>
                     <NavItem>
-                         Graph to 3D 
+                        Graph to 3D
                 </NavItem>
                 </LinkContainer>
             </Nav>
         </Navbar.Collapse>
     </Navbar>
-)
+);
+
+export default NavMenu;

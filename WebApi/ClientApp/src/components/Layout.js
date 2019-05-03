@@ -3,7 +3,7 @@ import { Col, Grid, Row } from 'react-bootstrap';
 import NavMenu from './NavMenu';
 import Footer from './Footer';
 
-export default props => (
+const Layout =  props => (
     <Grid fluid id="page-container">
         <div id="content-wrap">
             <Row>
@@ -20,3 +20,5 @@ export default props => (
         <Footer/>        
   </Grid>
 );
+
+export default Layout;

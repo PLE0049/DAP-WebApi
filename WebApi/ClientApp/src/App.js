@@ -9,10 +9,12 @@ import Net23DStepTwo from './components/Net23DStepTwo';
 import Net23DStepOne from './components/Net23DStepOne';
 import Parent from './components/Parent';
 
-export default () => (
-  <Layout>
-    <Route exact path='/' component={Home} />
-    <Route path='/Net23DStepOne' component={Net23DStepOne} />
-    <Route path='/Net23DStepTwo/:graphId' component={Net23DStepTwo} />
-  </Layout>
+const App = props => (
+    <Layout>
+        <Route exact path='/' component={Home} />
+        <Route path='/Net23DStepOne' component={Net23DStepOne} />
+        <Route path='/Net23DStepTwo/:graphId' component={Net23DStepTwo} />
+    </Layout>
 );
+
+export default App;
