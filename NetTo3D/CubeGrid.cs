@@ -21,6 +21,7 @@ namespace Network3dGraph
         private readonly double[][] Grid;
         //private int[][] freqGrid;
 
+        int test;
         private int pointsCount;
         private double radius;
         private double weightExponent = 1;
