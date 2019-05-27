@@ -70,6 +70,30 @@ class CustomSigma extends React.Component {
     }
 
 
+    importFromCsv = (data) => {
+        console.log(data);
+        var sigma = this.props.sigma;
+
+        var sourceNode = data[0][0];
+        var targetNode = data[0][1];
+        var weight = data[0][2];
+
+
+        if (!sigma.graph.nodes(sourceNode))
+            sigma.graph.addNode({ id: sourceNode });
+
+        if (!sigma.graph.nodes(targetNode))
+            sigma.graph.addNode({ id: targetNode });
+
+        sigma.graph.addEdge({
+            id: sigma.graph.edges().length + 1,
+            source: sourceNode,
+            target: targetNode,
+            weight: weight
+        });
+        
+    }
+
     ExportToCsv = () => {
 
         var resultString = "";

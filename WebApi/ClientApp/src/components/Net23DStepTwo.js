@@ -17,8 +17,8 @@ class FormExample extends React.Component {
 
 
         var GraphPath = "";
-        console.log(params.graphId);
-
+        console.log(params.graphId);     
+        var GraphType = "GEXF";
         switch (params.graphId) {
             case "0":
                 GraphPath = "DefaultNets/karate.gexf";
@@ -39,16 +39,16 @@ class FormExample extends React.Component {
                 GraphPath = "DefaultNets/stanberk.gexf";
                 break;
             default:
+                if (params.graphId.endsWith(".csv")) {
+                    GraphType = "CSV";
+                }
                 GraphPath = "Uploads/" + params.graphId;
+
         }
 
         var fig = {
             data: [{
                 z: [],
-                /*colorscale: [
-                    ['0.0', 'rgb(255, 0, 0)']
-                    ['1.0', 'rgb(0, 255, 0)']
-                ],*/
                 colorscale: 'Jet',
                 type: 'surface',
                 contours: {
@@ -68,18 +68,37 @@ class FormExample extends React.Component {
                     aspectratio: {
                         x: 1, y: 1, z: 1,
                     },
-                   /* zaxis: {
-                        nticks: 0.5,
-                        range: [0, 3],
-                    }*/
                 },
                 datarevision: 0,
             }
 
         };
 
-        this.state = { figure: fig, AreDataLoaded: false, GraphPath: GraphPath, linLog: true, exponent: 1.4 };
+        this.state = { figure: fig, AreDataLoaded: false, GraphPath: GraphPath, GraphType: GraphType, linLog: true, exponent: 1.4 };
 
+    }
+
+    componentDidMount = () => {
+        this.parseData(this.state.GraphPath, this.doStuff);
+    }
+
+    parseData = (url, callBack) => {
+        var Papa = require("papaparse/papaparse.min.js");
+        Papa.parse(url, {
+            download: true,
+            header: false,
+            dynamicTyping: true,
+            step: function (row) {
+                callBack(row.data);
+            },
+            complete: function (results) {
+               //callBack(results.data);
+            }
+        });
+    }
+
+    doStuff = (data) => {
+        this._child.importFromCsv(data);
     }
 
     sendDataOverApi = async (e) => {
@@ -196,13 +215,19 @@ class FormExample extends React.Component {
                             </div>
                         </div>
                         <div className="row">
-                            <Sigma renderer="webgl">
-                                <CustomSigma label="Label" ref={child => this._child = child} worker barnesHutOptimize barnesHutTheta={0.6} iterationsPerRender={10} linLogMode={this.state.linLog} adjustSizes />
-                                <LoadGEXF path={this.state.GraphPath}>
-                                    <ForceAtlas2 worker barnesHutOptimize barnesHutTheta={0.6} iterationsPerRender={10} linLogMode adjustSizes  timeout={3000} />
-                                    <RelativeSize initialSize={15} />
-                                </LoadGEXF>
-                            </Sigma>
+                            {this.state.GraphType === "GEXF" && 
+                                <Sigma renderer="webgl">
+                                    <CustomSigma label="Label" ref={child => this._child = child} worker barnesHutOptimize barnesHutTheta={0.6} iterationsPerRender={10} linLogMode={this.state.linLog} adjustSizes />
+                                    <LoadGEXF path={this.state.GraphPath}>
+                                        <ForceAtlas2 worker barnesHutOptimize barnesHutTheta={0.6} iterationsPerRender={10} linLogMode adjustSizes timeout={3000} />
+                                        <RelativeSize initialSize={15} />
+                                    </LoadGEXF>
+                                </Sigma>
+                            }
+                           
+                                <Sigma renderer="webgl">
+                                <CustomSigma label="Label" ref={child => this._child = child} worker barnesHutOptimize barnesHutTheta={0.6} iterationsPerRender={10} linLogMode={this.state.linLog} adjustSizes />                     
+                                </Sigma>
                         </div>
                     </div>
                     <div className="col-lg-6">

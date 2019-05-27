@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { actionCreators } from '../store/WeatherForecasts';
 import CustomSigma from './CustomSigma';
 import { Sigma, RandomizeNodePositions, EdgeShapes, NodeShapes, LoadGEXF, Filter, ForceAtlas2, RelativeSize } from 'react-sigma';
 import axios from 'axios';
@@ -42,7 +41,6 @@ class Net23DStepOne extends React.Component {
             return res.data;
         });
 
-        console.log(result);
         this.props.history.push('/Net23DStepTwo/' + result);
     }
 
@@ -70,13 +68,14 @@ class Net23DStepOne extends React.Component {
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
                     <div className="col-lg-6">
-                        
+                        sdasd
                     </div>
                 </div>
                 <div className="row">
                    <div className="col-lg-6">
-                        <h3>Upload GEXF graph file</h3>
-                        <p>Choose a file in gexf file format. Maximum file size is 1MB. Maximum network size is 1000 nodes. Its recomended upload only single one connected component.</p>
+                        <h3>Upload graph as GEXF or CSV</h3>                   
+                        <p>Choose a file in gexf file format or csv. Maximum file size is 1MB. Maximum network size is 1000 nodes. Its recomended upload only single one connected component.</p>
+                        <p>CSV fiel format must contain list of edges in format "ID,ID,Weight"</p> 
                         <form onSubmit={e => this.submitUpload(e)}>
                             <input name="file" type="file" className="btn" onChange={e => this.setFile(e)} />
                             <button type="submit" className="btn btn-primary" >Go</button>
